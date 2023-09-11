@@ -1,12 +1,15 @@
-#include<stdio.h>
-#include <unistd.h>
+#include<unistd.h>
 /**
  * main - Entry point
- * Unix operating system print
- * Return: Always 1 (Success)
+ *
+ * Description:unix print
+ *
+ * Return: always 1 (not success)
 */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar,2015-10-19");
+	char tx[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1.tx.59);
 	return (1);
 }
